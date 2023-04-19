@@ -1,0 +1,72 @@
+<section class="block block--dark block--skewed-right .block-showcase">
+      <header class="block__header">
+        <h2>User-friendly Control Panel</h2>
+      </header>
+    </section>
+    <div class="container grid grid--cols-2">
+      <picture class="block-showcase__image">
+        <source type="image/webp" srcset="images/ipad.png.webp" />
+        <img
+          class="block-showcase__image"
+          src="images/ipad.png.jpg  1x, images/ipad@2x.webp 2x"
+          alt=""
+        />
+      </picture>
+      <picture>
+        <source type="image/png.jpg" srcset="images/ipad.png.jpg" />
+        <img src="images/ipad.png.jpg  1x, images/ipad@2x.jpg 2x" alt="" />
+      </picture>
+      <ul class="list">
+        <li>
+          <div class="media">
+            <div class="media__image">
+              <svg class="icon icon--primary">
+                <use xlink:href="images/sprite.svg#snap"></use>
+              </svg>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">Easy Start & Managed Updates</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+                vitae eligendi at harum velit hic explicabo in accusamus et
+                possimus.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="media">
+            <div class="media__image">
+              <svg class="icon icon--primary">
+                <use xlink:href="images/sprite.svg#snap"></use>
+              </svg>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">Staging, GIT & WP-CLI</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+                vitae eligendi at harum velit hic explicabo in accusamus et
+                possimus.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="media">
+            <div class="media__image">
+              <svg class="icon icon--primary">
+                <use xlink:href="images/sprite.svg#snap"></use>
+              </svg>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">Dynamic caching & More</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+                vitae eligendi at harum velit hic explicabo in accusamus et
+                possimus.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
